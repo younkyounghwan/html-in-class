@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var title1 = "1: 액션"
+		var title2 = "2: 맬로"
+		var title3 = "3: 과학"
+		var title4 = "4: 기타"
+		var title_list =  title1 + "\n" + title2 + "\n" + title3 + "\n" + title4;
+		var q = prompt("어떤 장르의 영화를 좋아하세요?");
+		if (q == "1")
+     title = title1;
+else if (q == "2")
+     title = title2;
+else if (q == "3")
+     title = title3;
+ else if (q == "4")
+     title = title4;
+else {
+     alert("리스트에 없는 영화를 선택하셨습니다.");
+     title = "";
+}
+document.write("<td>" + title + "</td>");
+
+		 
+	</script>
+
+</body>
+</html>

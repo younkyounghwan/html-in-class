@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>제목: 내가 좋아하는... </title>
+	<meta>
+ </head>
+ <body>
+	table border="1">
+	 <tr>
+	  <td rowspan="3"> 내가좋아하는 음식

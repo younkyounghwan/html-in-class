@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+</head>
+<body>
+	<h3>다양한 입력 폼</h3>
+	<form method="get" action="form_app.js">
+		<fieldset>
+			<legend>필수 입력</legend>
+			성명: <input type="text" name="person" > <br>
+			성별: <input type="radio" name="sex" value="male"> 남성
+				  <input type="radio" name="sex" value="female"> 여성 <br>
+			전화: <input type="text" name="tel" placeholder="00*-000*-0000">
+			나이: <input type="text" name="age">
+		</fieldset> 
+		<fieldset>
+			<legend>선택 입력</legend>
+		직업: <select name="job" size="1">
+			<option>학생</option><option>회사원</option>
+			<option>공무원</option><option>기타</option>
+			</select>
+		<hr>
+			<input type="submit" value="신청">
+			<input type="reset" value="취소">
+			<p>
+				구입희망분야(복수선택가능)<br>
+				-분야
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>도서 대출</legend>
+		예약 희망일: <input type="date" name="last_date" min="2013-01-30"><br>
+		수령 시간:<input type="time" name="time_from" min="09:00" max="18:00">
+		에서 <input type="time" name="time_until" max-"18:00">사이 <br>
+		</fieldset>
+	<hr>
+	</form>
+
+</body>
+</html>

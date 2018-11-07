@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var A = "참잘했어요."
+		var B = "좋습니다."
+		var C = "괜찮네요."
+
+		var grade_list = A + "\n" + B + "\n" + C;  
+		var expression = prompt("키워드를 입력하시오\n" );
+
+		switch (expression){
+			case "A":
+			expression = A;
+			break;
+
+			case "B":
+			expression = B;
+			break;
+
+			case "C":
+			expression = C;
+			break;
+
+			default:
+			alert("리스트에 없는 성적입니다.")
+			expression = ""
+		}
+		document.write(expression);
+	</script>
+
+
+</body>
+</html>

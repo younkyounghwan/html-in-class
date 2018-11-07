@@ -1,0 +1,30 @@
+body{
+	background-color: #FF9933;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size:30px;
+	color:#0000FF;
+}
+h1{
+	color: #9900ff;
+	font-family: 'Shadows Into Light', cursive;
+	box-shadow: 0px 0px 20px #000;
+	text-shadow: 2px 2px 8px red;
+}
+.movie_k_name{
+	font-family: 'Gloria Hallelujah', 'Do Hyeon';
+	font-size:30px;
+	font-style:italic;  
+	color:#009933;
+}
+#movie_e_name {font-family: 'Gloria Hallelujah';}
+
+table{
+	color: #FF0000;
+	font-family: 'Gaegu', serif;
+	width: "200px"
+	height: "200px";  
+}
+li{
+	list-style-type : upper-roman;
+	    margin-left: 50px;
+}
