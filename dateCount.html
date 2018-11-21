@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var today = new Date();
+	    var y = today.getFullYear();
+	    var m = today.getMonth() + 1;
+	    var d = today.getDate();
+	    var dt = new Date(1995,2,18);
+	 
+	    document.write("오늘 날짜: " + y + "년 " + m + "월 " + d + "일<br/>");
+	    document.write("레옹 개봉일:  "+ dt + "<br>");
+	    document.write("경과된 시간" + (dt-y)/1000/60/60/24)
+	</script>
+
+</body>
+</html>
