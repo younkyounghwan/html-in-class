@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table border="1">
+
+	<script type="text/javascript">
+	document.write("<tr>");
+	
+	document.write("<td>사번</td> <td> 이름 </td><td> 직책 </td>");
+	document.write("</tr>");
+
+		var i = 1
+
+		while(i<4){
+
+
+		var employee = prompt("id name title")
+		var array = employee.split(" ")
+		document.write("<tr>");
+
+		document.write("<td>"+array[0]+"</td>"+"<td>"+array[1]+"</td>"+"<td>"+array[2]+"</td>"+ "</br>");
+		document.write("</tr>");
+
+		i++;
+		}	
+	</script>
+
+</body>
+</html>
