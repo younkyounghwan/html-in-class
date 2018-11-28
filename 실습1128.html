@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+ <head>
+   <title>welcome to javascript</title>
+   <meta charset = "UTF-8">
+ </head>
+ <body>
+   <div id = "outerBox" style = "background : blue; width : 550px; height : 300px;" />
+   
+   <div id = "innerBOx"
+      style = "background : yellow; width : 450px; height : 200px;
+         position : absolute; left : 50px; top : 50px;">
+   
+   <p id = "img1" width = "100px"
+      style = "position : absolute; left : 50px; top : 25px; visibility : visible;"> 보여요? </p>
+      
+   </div>
+   
+   </div>
+   <script type="text/javascript">
+   function toggleVisibility(id) {
+   var dom = document.getElementById(id);
+   
+   if (dom.style.visibility == "visible")
+      dom.style.visibility = "hidden";
+   else
+      dom.style.visibility = "visible";
+   }
+   </script>
+   Toggle Visibility:
+   <button onclick = "toggleVisibility('img1');">보임/숨김</button>
+ </body>
+</html>
